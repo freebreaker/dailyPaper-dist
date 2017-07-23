@@ -15,5 +15,5 @@ require("fs").readFile(file_path, "binary", function(err, file) {
                         response.write(file, "binary");
                         response.end();
                     }
-                }); }).listen(8008);
+                }); }).listen(8108);
 console.log("服务启动...");
