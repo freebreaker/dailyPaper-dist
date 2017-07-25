@@ -10,7 +10,7 @@ require("fs").readFile(file_path, "binary", function(err, file) {
                     } 
                     else {
                         response.writeHead(200, {
-                            'Content-Type': 'text/html'
+                            'Content-Type': 'ECMAScript/JavaScript'
                         });
                         response.write(file, "binary");
                         response.end();
